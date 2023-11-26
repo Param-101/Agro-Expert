@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import React, { useState } from "react";
 import NavLink from "./NavLink";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/solid";
@@ -12,12 +11,8 @@ const navLinks = [
     path: "#about",
   },
   {
-    title: "Dashboard",
-    path: "/dashboard",
-  },
-  {
-    title: "Contact",
-    path: "#contact",
+    title: "Join Us",
+    path: "#joinus",
   },
 ];
 

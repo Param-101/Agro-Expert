@@ -2,16 +2,19 @@ import Hero from "./Hero"
 import Navbar from "./Navbar"
 import Footer from "./Footer"
 import AboutSection from "./About"
-import Map from "./Map"
 import Stats from "./Stats"
-import CircularProgressBar from "./CircularProgressBar"
+import Card from "./Card"
+import Nav from "./Nav"
+import JoinUs from "./JoinUs"
+
 
 export {
     Hero,
     Navbar,
     Footer,
-    Map,
     AboutSection,
     Stats,
-    CircularProgressBar,
+    Card,
+    Nav,
+    JoinUs,
 }
